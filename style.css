@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -144,8 +143,7 @@ p > a:hover{
 .bg2{
     background-image: url(./icons/10011.jpg);
     height: 650px;
-    width: 100%;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 }
 .des1 {
@@ -162,7 +160,7 @@ p > a:hover{
     word-spacing: 2px;
     letter-spacing: 3px;
 }
-.des1,p{
+.des1 > p{
     margin-top: 10px;
     text-align: left;
     font-size: 20px;
@@ -176,6 +174,6 @@ p > a:hover{
 .des3 img{
     position: relative;
     height: 500px;
-    top: -130px;
+    top: -145px;
     left: 800px;
 }
