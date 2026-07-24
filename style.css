@@ -106,6 +106,7 @@ p > a:hover{
     color: #EFAB47; 
 }
 .con2 > p{
+    margin-top: 20px;
     font-size: 17px;
     letter-spacing: normal;
     text-align: start;
@@ -140,4 +141,50 @@ p > a:hover{
 }
 .part2{
     display: flex;
+}
+.full-con{
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(./icons/10011.jpg);
+}
+.part3{
+    background-image: url(./icons/10011.jpg);
+    height: 700px;
+    background-size: cover;
+}
+.des1 > h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.des1 > h3{
+    font-size: 45px;
+    word-spacing: 5px;
+}
+.des1 > p{
+    font-size: 25px;
+}
+.des1 > a:hover{
+    text-decoration: none;
+}
+.des2 > h3{
+    font-size: 35px;
+}
+.des2 > p{
+    font-size: 20px;
+}
+.des1{
+    position: relative;
+    top: 70px;
+    left: 150px;
+}
+.des2{
+    position: relative;
+    top: 200px;
+}
+.img2 > img{
+    position: relative;
+    top: -191px;
+    left: 800px;
+    height: 550px;
 }
