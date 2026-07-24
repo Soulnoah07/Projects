@@ -148,3 +148,34 @@ p > a:hover{
     background-position: center center;
     background-size: cover;
 }
+.des1 {
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+.des1 h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.des1 h2{
+    font-size: 40px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+.des1,p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.des2{
+    position: relative;
+    top: 300px;
+    width: 500px;
+    left: 150px;
+}
+.des3 img{
+    position: relative;
+    height: 500px;
+    top: -130px;
+    left: 800px;
+}
