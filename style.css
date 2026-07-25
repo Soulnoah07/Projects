@@ -1,9 +1,11 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
+    font-family: "Roboto", sans-serif;
 }
+
+
 
 .navbar {
   padding: 10px 0px 10px 80px;
@@ -23,9 +25,11 @@
 }
 .bg1 > h1 {
   margin-top: 20px;
-  font-size: 70px;
-  font-weight: 900;
+  font-size: 90px;
+  font-weight: 700;
+  font-style: normal;
   color: white;
+
 }
 .link1 {
   color: white;
@@ -194,15 +198,34 @@ a {
   height: 600px;
   background-color: #292870;
 }
-.full {
-  position: relative;
-  top: 80px;
-  left: 150px;
+.full > h1{
+  padding: 90px 0px 0px 200px;
+  font-size: 50px;
+  font-weight: 200;
+  color: #efab47;
+  
 }
 .step-container{
   display: inline-flex;
-  width: 850px;
 }
+.icon-wrapper{
+  font-size: 40px;
+  background-color: #efab47;
+  height: 50px;
+  width: 50px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 50%;
+
+}
+.step-card{
+  margin: 90px 0px 0px 200px;
+  width: 300px;
+  font-size: 20px;
+}
+.step-card > h3{
+  margin: 50px 0px 0px 0px;
+}
+
 .full > button{
   height: 45px;
   width: 200px;
@@ -217,4 +240,10 @@ a {
 .full > button > a{
   text-decoration: none;
 }
-
+.full > button{
+  margin: 40px 0px 0px 200px;
+}
+.full > button:hover,a:hover{
+  color: #292870;
+  background-color: white;
+}
