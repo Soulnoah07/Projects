@@ -20,7 +20,7 @@
   text-align: center;
 }
 .bg1 > img {
-  margin-top: 80px;
+  margin-top: 73px;
   height: 90px;
 }
 .bg1 > h1 {
@@ -195,11 +195,11 @@ a {
 }
 
 .part4 {
-  height: 600px;
+  height: 700px;
   background-color: #292870;
 }
 .full > h1{
-  padding: 90px 0px 0px 200px;
+  padding: 80px 0px 0px 200px;
   font-size: 50px;
   font-weight: 200;
   color: #efab47;
@@ -241,9 +241,61 @@ a {
   text-decoration: none;
 }
 .full > button{
+  font-weight: 500;
+  font-size: 18px;
   margin: 40px 0px 0px 200px;
 }
-.full > button:hover,a:hover{
+.full > button:hover{
+  color: #292870;
+  background-color: white;
+}
+.part5{
+  height: 700px;
+  background-image: url(./icons/10012.jpg);
+  background-size: cover;
+}
+.twocon{
+  display: inline-flex;
+}
+.twocon > img{
+  height: 500px;
+  padding-top: 100px;
+}
+.texts{
+padding: 150px 0px 0px 100px;
+}
+.texts > h1{
+  font-weight: 700;
+  font-size: 70px;
+}
+.texts > h3{
+  font-size: 35px;
+  font-weight:lighter;
+  word-spacing: 20px;
+}
+.texts > p{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.texts > p > a{
+margin-top: 20px;
+font-size: 20px;
+}
+.texts >  p:hover > a:hover{
+  text-decoration: none;
+}
+.texts > button{
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 30px;
+  color: white;
+  background-color: #efab47;
+  font-size: 500;
+  font-size: 18px;
+}
+.texts > button:hover{
   color: #292870;
   background-color: white;
 }
