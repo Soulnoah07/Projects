@@ -381,6 +381,31 @@ color: #292870;
   height: 200px;
   background-color: #292870;
 }
-.feedback > name1{
+.feedback > input{
+  width: 400px;
+  height: 40px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #efab47;
+  border: none;
+  font-size: 17px;
+  
+
+}
+.feedback{
 width: 800px;
+margin: 100px 0px 0px 150px;
+}
+.feedback  :nth-last-child(3){
+  height: 100px;
+}
+.feedback > button{
+  width: 400px;
+  height: 40px;
+  background-color: #292870;
+  font-size: 20px;
+  border: none;
+}
+.posi{
+  display: inline-flex;
 }
